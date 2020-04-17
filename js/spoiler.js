@@ -1,0 +1,1 @@
+!function(e){[].forEach.call(e.getElementsByClassName("Hide"),function(e){e.getElementsByClassName("Hide-title")[0].onclick=function(){e.classList.toggle("collapsed"),e.classList.toggle("expanded")}})}(document);

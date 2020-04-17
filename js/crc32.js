@@ -1,0 +1,1 @@
+function crc32(r){if(void 0===window.Crc32Table){var e,o,c;for(window.Crc32Table=new Array(256),e=0;e<256;e++){for(c=e,o=0;o<8;o++)c=1&c?c>>1&2147483647^3988292384:c>>1&2147483647;Crc32Table[e]=c}for("string"!=typeof r&&(r=""+r),c=4294967295,e=0;e<r.length;e++)c=c>>8&16777215^Crc32Table[255&c^r.charCodeAt(e)];return c^=4294967295}}
