@@ -1,8 +1,1 @@
-(function (document) {
-    [].forEach.call(document.getElementsByClassName('Hide'), function(panel) {
-        panel.getElementsByClassName('Hide-title')[0].onclick = function() {
-            panel.classList.toggle("collapsed");
-            panel.classList.toggle("expanded");
-        }
-    });
-})(document);
+!function(e){[].forEach.call(e.getElementsByClassName("Hide"),function(e){e.getElementsByClassName("Hide-title")[0].onclick=function(){e.classList.toggle("collapsed"),e.classList.toggle("expanded")}})}(document);
